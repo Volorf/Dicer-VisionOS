@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4DC32F62A6D871900F4FF49 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E4DC32F52A6D871900F4FF49 /* RealityKitContent */; };
+		E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */; };
+		E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F92A6D871900F4FF49 /* ContentView.swift */; };
+		E4DC32FC2A6D871900F4FF49 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */; };
+		E4DC32FE2A6D871B00F4FF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */; };
+		E4DC33012A6D871B00F4FF49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */; };
+		E4DC330F2A6D87DB00F4FF49 /* Dots1.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */; };
+		E4DC33102A6D87DB00F4FF49 /* Dots3.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330A2A6D87DB00F4FF49 /* Dots3.usdc */; };
+		E4DC33112A6D87DB00F4FF49 /* Dots4.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330B2A6D87DB00F4FF49 /* Dots4.usdc */; };
+		E4DC33122A6D87DB00F4FF49 /* Dots5.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330C2A6D87DB00F4FF49 /* Dots5.usdc */; };
+		E4DC33132A6D87DB00F4FF49 /* Dots2.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */; };
+		E4DC33142A6D87DB00F4FF49 /* Dots6.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */; };
+		E4DC33162A6D885300F4FF49 /* Dice_Body.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4DC32F02A6D871900F4FF49 /* Dicer VisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicer VisionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DC32F42A6D871900F4FF49 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dicer_VisionOSApp.swift; sourceTree = "<group>"; };
+		E4DC32F92A6D871900F4FF49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4DC33022A6D871B00F4FF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots1.usdc; path = ../../../Models/Dots1.usdc; sourceTree = "<group>"; };
+		E4DC330A2A6D87DB00F4FF49 /* Dots3.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots3.usdc; path = ../../../Models/Dots3.usdc; sourceTree = "<group>"; };
+		E4DC330B2A6D87DB00F4FF49 /* Dots4.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots4.usdc; path = ../../../Models/Dots4.usdc; sourceTree = "<group>"; };
+		E4DC330C2A6D87DB00F4FF49 /* Dots5.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots5.usdc; path = ../../../Models/Dots5.usdc; sourceTree = "<group>"; };
+		E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots2.usdc; path = ../../../Models/Dots2.usdc; sourceTree = "<group>"; };
+		E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots6.usdc; path = ../../../Models/Dots6.usdc; sourceTree = "<group>"; };
+		E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dice_Body.usdc; path = ../../../Models/Dice_Body.usdc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4DC32ED2A6D871900F4FF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DC32F62A6D871900F4FF49 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4DC32E72A6D871900F4FF49 = {
+			isa = PBXGroup;
+			children = (
+				E4DC32F22A6D871900F4FF49 /* Dicer VisionOS */,
+				E4DC32F32A6D871900F4FF49 /* Packages */,
+				E4DC32F12A6D871900F4FF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4DC32F12A6D871900F4FF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC32F02A6D871900F4FF49 /* Dicer VisionOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4DC32F22A6D871900F4FF49 /* Dicer VisionOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC33082A6D87C700F4FF49 /* Models */,
+				E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */,
+				E4DC32F92A6D871900F4FF49 /* ContentView.swift */,
+				E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */,
+				E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */,
+				E4DC33022A6D871B00F4FF49 /* Info.plist */,
+				E4DC32FF2A6D871B00F4FF49 /* Preview Content */,
+			);
+			path = "Dicer VisionOS";
+			sourceTree = "<group>";
+		};
+		E4DC32F32A6D871900F4FF49 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC32F42A6D871900F4FF49 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		E4DC32FF2A6D871B00F4FF49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4DC33082A6D87C700F4FF49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */,
+				E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */,
+				E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */,
+				E4DC330A2A6D87DB00F4FF49 /* Dots3.usdc */,
+				E4DC330B2A6D87DB00F4FF49 /* Dots4.usdc */,
+				E4DC330C2A6D87DB00F4FF49 /* Dots5.usdc */,
+				E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4DC32EF2A6D871900F4FF49 /* Dicer VisionOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DC33052A6D871B00F4FF49 /* Build configuration list for PBXNativeTarget "Dicer VisionOS" */;
+			buildPhases = (
+				E4DC32EC2A6D871900F4FF49 /* Sources */,
+				E4DC32ED2A6D871900F4FF49 /* Frameworks */,
+				E4DC32EE2A6D871900F4FF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dicer VisionOS";
+			packageProductDependencies = (
+				E4DC32F52A6D871900F4FF49 /* RealityKitContent */,
+			);
+			productName = "Dicer VisionOS";
+			productReference = E4DC32F02A6D871900F4FF49 /* Dicer VisionOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4DC32E82A6D871900F4FF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E4DC32EF2A6D871900F4FF49 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E4DC32EB2A6D871900F4FF49 /* Build configuration list for PBXProject "Dicer VisionOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4DC32E72A6D871900F4FF49;
+			productRefGroup = E4DC32F12A6D871900F4FF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4DC32EF2A6D871900F4FF49 /* Dicer VisionOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4DC32EE2A6D871900F4FF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DC33102A6D87DB00F4FF49 /* Dots3.usdc in Resources */,
+				E4DC330F2A6D87DB00F4FF49 /* Dots1.usdc in Resources */,
+				E4DC33132A6D87DB00F4FF49 /* Dots2.usdc in Resources */,
+				E4DC33112A6D87DB00F4FF49 /* Dots4.usdc in Resources */,
+				E4DC33012A6D871B00F4FF49 /* Preview Assets.xcassets in Resources */,
+				E4DC33122A6D87DB00F4FF49 /* Dots5.usdc in Resources */,
+				E4DC32FE2A6D871B00F4FF49 /* Assets.xcassets in Resources */,
+				E4DC33162A6D885300F4FF49 /* Dice_Body.usdc in Resources */,
+				E4DC33142A6D87DB00F4FF49 /* Dots6.usdc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4DC32EC2A6D871900F4FF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */,
+				E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */,
+				E4DC32FC2A6D871900F4FF49 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4DC33032A6D871B00F4FF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		E4DC33042A6D871B00F4FF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		E4DC33062A6D871B00F4FF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dicer VisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BW62R7MWZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dicer VisionOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volorf.Dicer-VisionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		E4DC33072A6D871B00F4FF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dicer VisionOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BW62R7MWZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dicer VisionOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.volorf.Dicer-VisionOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4DC32EB2A6D871900F4FF49 /* Build configuration list for PBXProject "Dicer VisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DC33032A6D871B00F4FF49 /* Debug */,
+				E4DC33042A6D871B00F4FF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DC33052A6D871B00F4FF49 /* Build configuration list for PBXNativeTarget "Dicer VisionOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DC33062A6D871B00F4FF49 /* Debug */,
+				E4DC33072A6D871B00F4FF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4DC32F52A6D871900F4FF49 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4DC32E82A6D871900F4FF49 /* Project object */;
+}
