@@ -13,9 +13,5 @@ struct Dicer_VisionOSApp: App {
         WindowGroup {
             ContentView()
         }.windowStyle(.volumetric)
-
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
-        }
     }
 }

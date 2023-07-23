@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4DC32F62A6D871900F4FF49 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E4DC32F52A6D871900F4FF49 /* RealityKitContent */; };
 		E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */; };
 		E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F92A6D871900F4FF49 /* ContentView.swift */; };
-		E4DC32FC2A6D871900F4FF49 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */; };
 		E4DC32FE2A6D871B00F4FF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */; };
 		E4DC33012A6D871B00F4FF49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */; };
 		E4DC330F2A6D87DB00F4FF49 /* Dots1.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */; };
@@ -24,10 +22,8 @@
 
 /* Begin PBXFileReference section */
 		E4DC32F02A6D871900F4FF49 /* Dicer VisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicer VisionOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4DC32F42A6D871900F4FF49 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dicer_VisionOSApp.swift; sourceTree = "<group>"; };
 		E4DC32F92A6D871900F4FF49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4DC33022A6D871B00F4FF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DC32F62A6D871900F4FF49 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				E4DC32F22A6D871900F4FF49 /* Dicer VisionOS */,
-				E4DC32F32A6D871900F4FF49 /* Packages */,
 				E4DC32F12A6D871900F4FF49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,20 +69,11 @@
 				E4DC33082A6D87C700F4FF49 /* Models */,
 				E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */,
 				E4DC32F92A6D871900F4FF49 /* ContentView.swift */,
-				E4DC32FB2A6D871900F4FF49 /* ImmersiveView.swift */,
 				E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */,
 				E4DC33022A6D871B00F4FF49 /* Info.plist */,
 				E4DC32FF2A6D871B00F4FF49 /* Preview Content */,
 			);
 			path = "Dicer VisionOS";
-			sourceTree = "<group>";
-		};
-		E4DC32F32A6D871900F4FF49 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				E4DC32F42A6D871900F4FF49 /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		E4DC32FF2A6D871B00F4FF49 /* Preview Content */ = {
@@ -130,7 +115,6 @@
 			);
 			name = "Dicer VisionOS";
 			packageProductDependencies = (
-				E4DC32F52A6D871900F4FF49 /* RealityKitContent */,
 			);
 			productName = "Dicer VisionOS";
 			productReference = E4DC32F02A6D871900F4FF49 /* Dicer VisionOS.app */;
@@ -195,7 +179,6 @@
 			files = (
 				E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */,
 				E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */,
-				E4DC32FC2A6D871900F4FF49 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,13 +380,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E4DC32F52A6D871900F4FF49 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4DC32E82A6D871900F4FF49 /* Project object */;
 }
