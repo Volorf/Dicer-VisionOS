@@ -12,6 +12,9 @@ struct ContentView: View
 {
     @State var showImmersiveSpace = false
     @State var angle: Double = 90.0
+    @State var isPressed: Bool = false
+    @State var zOffset: Double = 0
+    @State var buttonScale: Double = 1.0
     
     let scale: SIMD3<Float> = [0.25, 0.25, 0.25]
     
@@ -70,21 +73,41 @@ struct ContentView: View
             }
             .rotation3DEffect(.degrees(angle), axis: Bool.random() ? (0.0, 1.0, 0.0) : (0.1, 0.0, 0.0))
             .animation(.bouncy(duration: 1.0), value: angle)
-            .padding3D(.front, 200)
+            .padding3D(.front, zOffset)
+            .animation(.bouncy(duration: 1.0), value: zOffset)
             .onTapGesture
             {
                 randAngle()
             }
             
-            Button()
-            {
-                randAngle()
-            }
-            label:
-            {
-                Text("Roll the Dice")
-            }
-            .buttonStyle(.bordered)
+            Text("Roll the Dice")
+                .font(.system(size: 24))
+            .frame(width: 240, height: 100)
+            .glassBackgroundEffect()
+            .hoverEffect(.highlight)
+            .scaleEffect(buttonScale)
+            .animation(.bouncy(duration: 0.5), value: buttonScale)
+            .gesture(DragGesture(minimumDistance: 0)
+                .onChanged { _ in
+                    
+                    if (!isPressed)
+                    {
+                        randAngle()
+                        zOffset = -400.0
+                        buttonScale = 0.9
+                        print("Down")
+                        isPressed = true
+                    }
+                }
+                .onEnded { _ in
+                    if (isPressed)
+                    {
+                        zOffset = 0
+                        buttonScale = 1.0
+                        print("Up")
+                        isPressed = false
+                    }
+                })
         }
         .padding()
     }
