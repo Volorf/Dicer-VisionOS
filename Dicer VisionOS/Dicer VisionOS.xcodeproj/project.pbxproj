@@ -17,7 +17,7 @@
 		E4DC33122A6D87DB00F4FF49 /* Dots5.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330C2A6D87DB00F4FF49 /* Dots5.usdc */; };
 		E4DC33132A6D87DB00F4FF49 /* Dots2.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */; };
 		E4DC33142A6D87DB00F4FF49 /* Dots6.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */; };
-		E4DC33162A6D885300F4FF49 /* Dice_Body.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */; };
+		E4DC33162A6D885300F4FF49 /* Body.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33152A6D885300F4FF49 /* Body.usdc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		E4DC330C2A6D87DB00F4FF49 /* Dots5.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots5.usdc; path = ../../../Models/Dots5.usdc; sourceTree = "<group>"; };
 		E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots2.usdc; path = ../../../Models/Dots2.usdc; sourceTree = "<group>"; };
 		E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dots6.usdc; path = ../../../Models/Dots6.usdc; sourceTree = "<group>"; };
-		E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Dice_Body.usdc; path = ../../../Models/Dice_Body.usdc; sourceTree = "<group>"; };
+		E4DC33152A6D885300F4FF49 /* Body.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Body.usdc; path = ../../../Models/Body.usdc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		E4DC33082A6D87C700F4FF49 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E4DC33152A6D885300F4FF49 /* Dice_Body.usdc */,
+				E4DC33152A6D885300F4FF49 /* Body.usdc */,
 				E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */,
 				E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */,
 				E4DC330A2A6D87DB00F4FF49 /* Dots3.usdc */,
@@ -165,7 +165,7 @@
 				E4DC33012A6D871B00F4FF49 /* Preview Assets.xcassets in Resources */,
 				E4DC33122A6D87DB00F4FF49 /* Dots5.usdc in Resources */,
 				E4DC32FE2A6D871B00F4FF49 /* Assets.xcassets in Resources */,
-				E4DC33162A6D885300F4FF49 /* Dice_Body.usdc in Resources */,
+				E4DC33162A6D885300F4FF49 /* Body.usdc in Resources */,
 				E4DC33142A6D87DB00F4FF49 /* Dots6.usdc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
