@@ -12,7 +12,7 @@ struct ContentView: View
 {
     @State var angle: Double = 3600.0
     @State var isPressed: Bool = false
-    @State var zOffset: Double = 0.0
+    @State var zOffset: Double = 400.0
     @State var buttonScale: Double = 1.0
     
     let scale: SIMD3<Float> = [0.25, 0.25, 0.25]
@@ -106,7 +106,7 @@ struct ContentView: View
                         if (isPressed)
                         {
                             isPressed = false
-                            zOffset = 0
+                            zOffset = 400
                             buttonScale = 1.0
                             print("Up")
                         }
