@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F72A6D871900F4FF49 /* Dicer_VisionOSApp.swift */; };
-		E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F92A6D871900F4FF49 /* ContentView.swift */; };
 		E4DC32FE2A6D871B00F4FF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC32FD2A6D871B00F4FF49 /* Assets.xcassets */; };
 		E4DC33012A6D871B00F4FF49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33002A6D871B00F4FF49 /* Preview Assets.xcassets */; };
 		E4DC330F2A6D87DB00F4FF49 /* Dots1.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33092A6D87DB00F4FF49 /* Dots1.usdc */; };
@@ -18,6 +17,7 @@
 		E4DC33132A6D87DB00F4FF49 /* Dots2.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330D2A6D87DB00F4FF49 /* Dots2.usdc */; };
 		E4DC33142A6D87DB00F4FF49 /* Dots6.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC330E2A6D87DB00F4FF49 /* Dots6.usdc */; };
 		E4DC33162A6D885300F4FF49 /* Body.usdc in Resources */ = {isa = PBXBuildFile; fileRef = E4DC33152A6D885300F4FF49 /* Body.usdc */; };
+		E4F372602C42FA1D005DE8F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DC32F92A6D871900F4FF49 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DC32FA2A6D871900F4FF49 /* ContentView.swift in Sources */,
+				E4F372602C42FA1D005DE8F1 /* ContentView.swift in Sources */,
 				E4DC32F82A6D871900F4FF49 /* Dicer_VisionOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +316,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dicer VisionOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,9 +326,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.volorf.Dicer-VisionOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 7;
 			};
 			name = Debug;
 		};
@@ -343,6 +346,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dicer VisionOS/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,9 +356,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.volorf.Dicer-VisionOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = 7;
 			};
 			name = Release;
 		};

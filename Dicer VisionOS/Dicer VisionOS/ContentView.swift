@@ -12,7 +12,7 @@ struct ContentView: View
 {
     @State var angle: Double = 3600.0
     @State var isPressed: Bool = false
-    @State var zOffset: Double = 400.0
+    @State var zOffset: Double = 0.0
     @State var buttonScale: Double = 1.0
     
     let scale: SIMD3<Float> = [0.25, 0.25, 0.25]
@@ -70,7 +70,7 @@ struct ContentView: View
                 }
             }
             .rotation3DEffect(.degrees(angle), axis: Bool.random() ? (1.0, 0.0, 0.0) : (0.0, 1.0, 0.0))
-            .animation(.bouncy(duration: 1.0), value: angle)
+            .animation(.bouncy(duration: 2.0), value: angle)
             .padding3D(.front, zOffset)
             .animation(.bouncy(duration: 0.75), value: zOffset)
             //            .onTapGesture
@@ -95,7 +95,7 @@ struct ContentView: View
                         {
                             isPressed = true
                             randAngle()
-                            zOffset = -400.0
+                            zOffset = -400
                             buttonScale = 0.9
                             print("angle is \(angle)")
                             print("Down")
@@ -106,7 +106,7 @@ struct ContentView: View
                         if (isPressed)
                         {
                             isPressed = false
-                            zOffset = 400
+                            zOffset = 0
                             buttonScale = 1.0
                             print("Up")
                         }
